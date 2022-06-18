@@ -4,6 +4,9 @@ branding:
   color: 'blue'
   icon: 'lock'  
 inputs:
+ env: 
+      GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      description: 'Github token is picked by default'
   asoc_key: ${{secrets.ASOC_KEY}}
   description: 'API key for connecting to ASoC.'
   required: true
