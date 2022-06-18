@@ -4,10 +4,10 @@ branding:
   color: 'blue'
   icon: 'lock'  
 inputs:
-  asoc_key:
+  asoc_key: ${{secrets.ASOC_KEY}}
     description: 'API key for connecting to ASoC.'
     required: true
-  asoc_secret:
+  asoc_secret: ${{secrets.ASOC_SECRET}}
     description: 'Secret for connecting to ASoC.'
     required: true
   status:
