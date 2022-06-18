@@ -13,7 +13,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
       - name: Run AppScan CodeSweep
-        uses: HCL-TECH-SOFTWARE/appscan-codesweep-action@v2
+        uses: appscan-codesweep-action@v2
  env: 
       GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       description: 'Github token is picked by default'
