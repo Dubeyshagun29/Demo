@@ -3,7 +3,7 @@ on:
   pull_request:
     types: [opened,synchronize]
 jobs:
-  scan:
+  scan: 'hjfghv'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
