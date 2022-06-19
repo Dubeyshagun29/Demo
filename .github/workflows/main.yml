@@ -3,7 +3,8 @@ on:
   pull_request:
     types: [opened,synchronize]
 jobs:
-  scan:
+  scan: Run DAST Scan
+  test: http://altoro.testfire.net/
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
