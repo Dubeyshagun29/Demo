@@ -1,5 +1,4 @@
 name: 'HCL AppScan CodeSweep'
-description: 'Scan for security issues in code'
 on:
   pull_request:
     types: [opened,synchronize]
